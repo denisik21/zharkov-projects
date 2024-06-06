@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "queue-management-core", "queue-management-core\queue-management-core.csproj", "{D8AC2981-D820-4ACD-A571-8B89C42D2E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "queue-management-application", "queue-management-application\queue-management-application.csproj", "{3ABA3028-9C8C-46BE-9AA8-CE91802965E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8AC2981-D820-4ACD-A571-8B89C42D2E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8AC2981-D820-4ACD-A571-8B89C42D2E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8AC2981-D820-4ACD-A571-8B89C42D2E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8AC2981-D820-4ACD-A571-8B89C42D2E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ABA3028-9C8C-46BE-9AA8-CE91802965E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABA3028-9C8C-46BE-9AA8-CE91802965E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABA3028-9C8C-46BE-9AA8-CE91802965E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABA3028-9C8C-46BE-9AA8-CE91802965E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5E66521-5ABB-44CC-B340-091C71F07943}
+	EndGlobalSection
+EndGlobal

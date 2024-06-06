@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "queue-management-core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/queue-management-core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/queue-management-core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "queue-management-core/1.0.0": {
+      "type": "project",
+      "path": "../queue-management-core/queue-management-core.csproj",
+      "msbuildProject": "../queue-management-core/queue-management-core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "queue-management-core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\cliva\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\cliva\\OneDrive\\Рабочий стол\\QueueManagement\\queue-management-application\\queue-management-application.csproj",
+      "projectName": "queue-management-application",
+      "projectPath": "C:\\Users\\cliva\\OneDrive\\Рабочий стол\\QueueManagement\\queue-management-application\\queue-management-application.csproj",
+      "packagesPath": "C:\\Users\\cliva\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cliva\\OneDrive\\Рабочий стол\\QueueManagement\\queue-management-application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\cliva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\cliva\\OneDrive\\Рабочий стол\\QueueManagement\\queue-management-core\\queue-management-core.csproj": {
+              "projectPath": "C:\\Users\\cliva\\OneDrive\\Рабочий стол\\QueueManagement\\queue-management-core\\queue-management-core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
